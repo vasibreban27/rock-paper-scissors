@@ -1,0 +1,51 @@
+.app {
+    min-height: 100vh;
+    padding: 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 32px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 12px 20px;
+    font-size: 24px;
+    font-weight: bold;
+
+    border: 2px solid #777;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #eeeeee;
+}
+
+button svg {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: 24px;
+}
+
+.choices {
+    margin-top: 24px;
+    font-size: 20px;
+}
